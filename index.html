@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site IFPR Viagens</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -37,14 +38,16 @@
               <div class="card-tag card-tag-top">
                 <p>Promoção</p>
               </div>
-            <div class="card-tag card-tag-botton">
+            <div class="card-tag card-tag-bottom">
                 <p>R$1.500,00</p>
             </div>
             <img src="https://www.maladeaventuras.com/wp-content/uploads/2020/02/o-que-fazer-bangkok-768x512.jpg.webp" alt="Ayutthaya" class="card-image">
             <div class="card-content">
             <h1>Visitar Ayutthaya</h1>
             <ul>
-                <li><i></i>Alegria</li>
+              <li><i data-feather="book-open"></i> Conheça a história</li>
+              <li><i data-feather="camera"></i> Fotos</li>
+              <li><i data-feather="coffee"></i> Café</li>
             </ul>
          </div>
       </div>
@@ -52,14 +55,16 @@
         <div class="card-tag card-tag-top">
           <p>Promoção</p>
         </div>
-      <div class="card-tag card-tag-botton">
-          <p>R$500,00</p>
+      <div class="card-tag card-tag-bottom">
+          <p>R$2.500,00</p>
       </div>
       <img src="https://www.maladeaventuras.com/wp-content/uploads/2020/02/o-que-fazer-bangkok-wat-arun-768x512.jpg" alt="Wat Arun" class="card-image">
       <div class="card-content">
-      <h1>Wat Arun</h1>
+      <h1>Visitar Wat Arun</h1>
       <ul>
-          <li><i></i>Alegria</li>
+          <li><i data-feather="wifi"></i> Wi-Fi On</li>
+          <li><i data-feather="map"></i> Local Mais Visitado</li>
+          <li><i data-feather="coffee"></i> Café</li>
       </ul>
    </div>
 </div>
@@ -67,19 +72,54 @@
               <div class="card-tag card-tag-top">
                 <p>Promoção</p>
               </div>
-            <div class="card-tag card-tag-botton">
-                <p>R$250,00</p>
+            <div class="card-tag card-tag-bottom">
+                <p>R$500,00</p>
             </div>
             <img src="https://www.maladeaventuras.com/wp-content/uploads/2020/02/o-que-fazer-bangkok-tuktuk-768x512.jpg" alt="Tuktuk" class="card-image">
             <div class="card-content">
-            <h1>Passeio de Tuktuk pela cidade</h1>
+            <h1>Passeio de Tuktuk</h1>
             <ul>
-                <li><i></i>Alegria</li>
+              <li><i data-feather="message-circle"></i> Bom papo</li>
+              <li><i data-feather="map"></i> Conheça a cidade</li>
+              <li><i data-feather="coffee"></i> Café</li>
             </ul>
          </div>
       </div>
     
     </div>
     </section>
+    <section id="servicos" class="servicos">
+      <h1 class="servicos-title">Serviços</h1>
+      <div class="servicos-cards">
+        <div class="card">
+          <i data-feather="map"></i>
+          <div class="card-content">
+            <h3>Tours Guiados</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque eos porro ipsa corporis eligendi ipsum quis tempore vero enim nesciunt delectus numquam impedit dolor, amet fuga officia earum illum.</p>
+          </div>
+          <button>Saiba Mais</button>
+        </div>
+        <div class="card">
+          <i data-feather="camera"></i>
+          <div class="card-content">
+            <h3>Tours Guiados</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque eos porro ipsa corporis eligendi ipsum quis tempore vero enim nesciunt delectus numquam impedit dolor, amet fuga officia earum illum.</p>
+          </div>
+          <button>Saiba Mais</button>
+        </div>
+        <div class="card">
+          <i data-feather="navigation"></i>
+          <div class="card-content">
+            <h3>Tours Guiados</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque eos porro ipsa corporis eligendi ipsum quis tempore vero enim nesciunt delectus numquam impedit dolor, amet fuga officia earum illum.</p>
+          </div>
+          <button>Saiba Mais</button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      feather.replace()
+    </script>
 </body>
 </html>
