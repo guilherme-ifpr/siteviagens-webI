@@ -202,6 +202,17 @@ header nav p {
 .contatos {
     padding: 15px;
     background-color: #58b4f1;
+    flex-direction: unset;
+}
+
+.contatos .contatos-card{
+    height: 110px;
+    background: white;
+    position: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
 }
 
 .contatos .contatos-title {
@@ -211,7 +222,7 @@ header nav p {
 
 .contatos p {
     text-align: center;
-    margin: 35px 0;
+    margin: 10px 0;
 }
 
 .contatos .mail {
@@ -282,4 +293,13 @@ header nav p {
 
 .contatos .phone svg {
     color: #046334;
+}
+
+.contatos .rodape p {
+    line-height: 0.2;
+    margin-top: 25px;
+}
+
+.contatos .info p {
+    font-size: 12px;
 }
