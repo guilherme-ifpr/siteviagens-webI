@@ -201,6 +201,12 @@ header nav p {
 
 .contatos {
     padding: 15px;
+    background-color: #58b4f1;
+}
+
+.contatos .contatos-title {
+    text-align: center;
+    margin: 35px 0;
 }
 
 .contatos p {
@@ -209,5 +215,71 @@ header nav p {
 }
 
 .contatos .mail {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .mail svg {
+    color:rgb(128, 7, 7);
+}
+
+.contatos .facebook {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .facebook svg {
     color: #1d61dd;
+}
+
+.contatos .twitter {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .twitter svg {
+    color: aquamarine;
+}
+
+.contatos .instagram {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .instagram svg {
+    color: #dd1dca;
+}
+
+.contatos .phone {
+    color: black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .phone svg {
+    color: #046334;
 }
