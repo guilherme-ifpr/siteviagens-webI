@@ -15,15 +15,6 @@ a {
     color: inherit;
 }
 
-button {
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    border: 0;
-    background: #1d61dd;
-    color: white;
-}
-/*Comentários de CSS são dessa forma*/
 header {
     background: no-repeat center/cover url("assets/tailandia.jpg");
     height: calc(150vh - 200px);    
@@ -33,6 +24,11 @@ header nav {
     display: flex;
     justify-content: space-between;
     margin: auto 90px;
+}
+
+img {
+    height: 25px;
+    margin: 0px 0px 0px 15px;
 }
 
 header nav ul {
@@ -53,24 +49,19 @@ header nav p {
     text-align: center;
 }
 
-.header-content h1 {
-    margin-bottom: 10px;
-    font-size: 3rem;
-}
-
-.pacotes .pacotes-title {
+.info .info-title {
     width: 100%;
     text-align: center;
     margin: 25px 0;
     font-size: 3rem
 }
 
-.pacotes{
+.info{
     background: #58b4f1;
     padding: 15px;
 }
 
-.pacotes .pacotes-card {
+.info .info-card {
     display: flex;
     margin: auto;
     max-width: 950px;
@@ -78,13 +69,14 @@ header nav p {
     justify-content: center;
 }
 
-.pacotes .card-image{
+.info .card-image{
     width: 250px;
     height: 200px;
-    border-radius: 24px 0 0 0;
+    border-radius: 20px 0 0 0;
+    margin: 0px 0px 0px 0px;
 }
 
-.pacotes .card {
+.info .card {
     width: 250px;
     height: 350px;
     background: white;
@@ -93,17 +85,17 @@ header nav p {
     position: relative;
 }
 
-.pacotes .card-content {
+.info .card-content {
     padding: 0 15px;
 }
 
-.pacotes .card-content ul {
+.info .card-content ul {
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-.pacotes .card-content ul li {
+.info .card-content ul li {
     font-size: 0.6rem;
     display: flex;
     align-items: center;
@@ -112,60 +104,42 @@ header nav p {
     font-weight: bold;
 }
 
-.pacotes .card-content li svg {
+.info .card-content li svg {
     width: 16px;
     height: 16px;
     margin-right: 10px;
 }
 
-.pacotes .card-content h1 {
+.info .card-content h1 {
     font-size: 1rem;
 }
 
-.pacotes .card .card-tag-top {
-    position: absolute;
-    right: 0;
-    top:15px;
-    background: #f19b39;
-    border-radius: 8px 0 0 8px;
-    padding: 5px 10px;
-}
-
-.pacotes .card .card-tag-bottom {
-    position: absolute;
-    left: 0;
-    top:160px;
-    background: #1d61dd;
-    border-radius: 0 8px 8px 0;
-    padding: 5px 10px;
-}
-
-.pacotes .card .card-tag p {
+.info .card .card-tag p {
     margin: 0;
     font-size: 0.8rem;
     color: white;
     font-weight: bold;
 }
 
-.servicos {
+.relato {
     padding: 15px;
 }
 
-.servicos .servicos-title {
+.relato .relato-title {
     text-align: center;
     margin: 35px 0;
 }
 
-.servicos .servicos-cards {
+.relato .relato-cards {
     margin-top: 25px;
     display: flex;
-    max-width: 950px;
+    max-width: 1200px;
     justify-content: center;
     margin: auto;
 }
 
-.servicos .card {
-    width: 250px;
+.relato .card {
+    width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,29 +147,30 @@ header nav p {
     margin: 0 20px;
 }
 
-.servicos .card svg {
+.relato .card svg {
     width: 60px;
     height: 60px;
     margin: 50px;
 }
 
-.servicos .card svg:hover {
+.relato .card svg:hover {
     stroke: #1d61dd;
     transform: scale(1.1);
 }
 
-.servicos .card h3 {
+.relato .card h3 {
     font-weight: bold;
 }
 
-.servicos .card p {
+.relato .card p {
     color: blue;
     font-size: 0.8rem;
     text-align: center;
+    font-size: 16px;
 }
 
-.servicos .card .card-content {
-    height: 180px;
+.relato .card .card-content {
+    height: 500px;
     text-align: center;
 }
 
